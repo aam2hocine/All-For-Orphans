@@ -1,0 +1,23 @@
+all-for-orphans/
+├── frontend/              → Code pour l'application mobile & web (React Native ou Flutter)
+│   ├── src/
+│   │   ├── components/    → Composants UI (Boutons, Formulaires)
+│   │   ├── screens/       → Écrans principaux (Inscription, Page d'accueil, Profil)
+│   │   └── utils/         → Fonctionnalités utilitaires (Validation, API)
+│   └── public/            → Fichiers publics (images, icônes)
+├── smart-contracts/       → Code Solidity pour les contrats intelligents (Ethereum)
+│   ├── contracts/         → Contrats pour la gestion des orphelins et des paiements
+│   ├── migrations/        → Migrations des contrats
+│   └── tests/             → Tests unitaires pour les contrats
+├── backend-api/           → Code serveur pour la logique de validation
+│   ├── src/               → Code API (Validation des certificats, gestion des utilisateurs)
+│   └── database/          → Gestion des données (MongoDB, etc.)
+├── storage/               → Code pour le stockage décentralisé (IPFS/Arweave)
+│   └── helpers/           → Fonctions pour l'interaction avec les réseaux décentralisés
+├── docs/                  → Documentation du projet
+│   ├── setup.md           → Guide d’installation
+│   ├── architecture.md    → Détails de l’architecture
+│   └── contribution.md    → Guide pour contribuer
+├── LICENSE                → Licence open-source (MIT / GPL)
+└── README.md              → Documentation principale du projet
+ 
